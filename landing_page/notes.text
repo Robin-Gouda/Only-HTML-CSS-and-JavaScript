@@ -1,0 +1,6 @@
+always give appropriate tah like header , navigation bar,..etc
+devide section as per ui  desigen to get easy understanding and optimize SEO
+///// 
+to use display flix/display grid we need a pairent container
+div.class_name*2 =  <div class= " class_name "></div>
+                    <div class= " class_name "></div>

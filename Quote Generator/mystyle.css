@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(../jsQuoteGen/salman-sidheek-o3s0Q5VASQQ-unsplash\ \(2\).jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: #262626;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.main-content{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding:50px 40px;
+    box-shadow:0 0 10px;
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}

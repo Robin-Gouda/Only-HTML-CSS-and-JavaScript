@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  /*1rem = 10px*/
+}
+/*body{
+
+}*/
+
+/* :root{ } targrt the root element of the file which in this case is the html file */
+
+:root {
+  --primary-color: #000839;
+  --primary-shade: #00020b;
+  --para-color: #80849c;
+  --helper-color: #1264fa;
+  --white: #fff;
+}
+/*tints and shades website*/
+
+a {
+  text-decoration: none;
+  display: inline-block; /*inline vs inline block*/
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+/*25:15  important point*/
+li {
+  list-style: none; /*to remmove bullets from list*/
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary-color);
+}
+/* generaly this beow is standard so try to copy it everywhere */
+.para {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--para-color);
+}
+
+/*-------------------------------------
+header and navbar style start
+-------------------------------------*/
+.header {
+  height: 9.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5.4rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem; /* imp */
+  font-size: 1.5rem;
+}
+
+.navbar-list .navbar-btn {
+  padding: 1.2rem 2.4rem;
+  background-color: var(--white);
+  border: 1px solid var(--helper-color);
+  color: var(--helper-color);
+  border-radius: 5rem; /*border radius always very very grater 
+    than box dimension (1.2rem ,2.4rem) to give a perfect shape*/
+  transition: all 0.3s ease-in-out;
+}
+.navbar-list.navbar-link :hover,
+.navbar-list.navbar-link :active {
+  color: var(--helper-color);
+}
+*/ .navbar-btn :hover,
+.navbar-btn :active {
+  background-color: var(--helper-color);
+  color: var(--white);
+}
+
+.navbar-link {
+  text-transform: uppercase;
+}
+
+.mobile-nav-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.mobile-navbar-btn {
+  display: none;
+}
+
+.mobile-nav-icon[name="close"] {
+  display: none;
+}
+
+/* Reusable Code*/
+.section {
+  padding: 9.6rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn {
+  font-size: 1.6rem;
+}
