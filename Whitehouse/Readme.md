@@ -1,1 +1,1 @@
-![img](IITJd.jpg)
+![img](Whitehouse\IITJd.jpg)
