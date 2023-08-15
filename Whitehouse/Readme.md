@@ -1,1 +1,1 @@
-![Alt text](IITJd.jpg)
+![Img](IITJd.jpg)
